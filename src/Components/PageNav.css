@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+.NavTainer {
+  margin-top: 30px;
+}
 
 #navlistholderpage {
   display: flex;

@@ -8,6 +8,7 @@ import {BrowserRouter as Router,
   Switch,
   Link,
   Redirect} from 'react-router-dom';
+import 'semantic-ui-css/semantic.min.css';
 
 class App extends Component {
   render() {

@@ -16,9 +16,10 @@ class PageNav extends Component {
           </div>
           <div id='navlistholderpage'>
             <ul className="NavListpage">
+              <li className='NavListItempage'><a href="/">Home</a></li>
               <li className='NavListItempage'><a href="/about">About</a></li>
               {/* <li className='NavListItem'><a href="/portfolio">Portfolio</a></li> */}
-              <li className='NavListItempage'><a href="/contact">Contact</a></li>
+              {/* <li className='NavListItempage'><a href="/contact">Contact</a></li> */}
             </ul>
           </div>
         </div>

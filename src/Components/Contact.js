@@ -1,14 +1,22 @@
 import React, {Component} from 'react';
 import PageNav from './PageNav';
+import MyForm from './MyForm';
+
+
+
+
 
 class Contact extends Component {
   render() {
     return(
       <div id="page">
-        <PageNav/>
+        <PageNav />
         <div id="article">
-          <h3>You can reach me by email at JTConnolly82@gmail.com or use the form below.</h3>
+          <h3>I can be reached by email at jtconnolly82@gmail.com, or use the 
+            form below.
+          </h3>
         </div>
+        <MyForm class="MyForm"/>
       </div>
     )
   }
