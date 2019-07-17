@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+#navlistholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.NavListItem a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.NavListItem {
+  transition: ease-in-out .2s;
+  cursor: pointer; 
+  display: inline-flex;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.NavListItem:hover {
+  box-shadow: 0  5px 0px -2px rgb(65, 63, 63);
+}
+
+.NavList {
+  padding: 0;
+  list-style-type: none;
+}
+
+#myname {
+  transition: transform ease-out .4s;  
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+#fullnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

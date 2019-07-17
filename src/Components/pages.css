@@ -1,0 +1,50 @@
+/* this is for about, portfolio, and contact */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+
+#article {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+#article h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+#minilink {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+}
+
+#resume {
+  margin-top: 125px;
+  max-width:98%;
+  max-height:98%;
+}
+
+#resumediv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width:100%;
+  max-height:100%;
+}
+
+/* #myname:hover {
+  transform: scale(1.1);
+}
+
+#myname {
+  transition: transform ease-out .4s; } */

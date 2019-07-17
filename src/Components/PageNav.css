@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+#navlistholderpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.NavListItempage a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.NavListItempage {
+  transition: ease-in-out .2s;
+  cursor: pointer; 
+  display: inline-flex;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.NavListItempage:hover {
+  box-shadow: 0  5px 0px -2px rgb(65, 63, 63);
+}
+
+.NavListpage {
+  padding: 0;
+  list-style-type: none;
+}
+
+#mynamepage {
+  transition: transform ease-out .4s;  
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#mynamepage:hover {
+  transform: scale(1.1);
+}
