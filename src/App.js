@@ -5,9 +5,7 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import {BrowserRouter as Router,
   Route,
-  Switch,
-  Link,
-  Redirect} from 'react-router-dom';
+  Switch,} from 'react-router-dom';
 import 'semantic-ui-css/semantic.min.css';
 
 class App extends Component {

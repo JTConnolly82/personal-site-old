@@ -19,7 +19,7 @@ class PageNav extends Component {
               <li className='NavListItempage'><a href="/">Home</a></li>
               <li className='NavListItempage'><a href="/about">About</a></li>
               {/* <li className='NavListItem'><a href="/portfolio">Portfolio</a></li> */}
-              {/* <li className='NavListItempage'><a href="/contact">Contact</a></li> */}
+              <li className='NavListItempage'><a href="/contact">Contact</a></li>
             </ul>
           </div>
         </div>

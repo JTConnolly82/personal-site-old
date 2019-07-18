@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import PageNav from './PageNav';
 import "./pages.css";
+import Social from './Social';
+import MyForm from './MyForm';
 
 class About extends Component {
   constructor(){
@@ -24,24 +26,23 @@ class About extends Component {
     return(
       <div id="page">
         <PageNav id="nav"/>
+        <h1 id="abouth1">About Me</h1>
         <div id="article">
-          <h1>About Me</h1>
-          <h3>I grew up in Pittsburgh, PA and currently living in Salt 
-            Lake City, Utah.  <img id="aboutimage" align="right" src="https://i.imgur.com/5TN30vH.png" alt="me" />
-             A graduate of the University of Colorado in 
-            2013 and  DevPoint Labs’ Full-Stack Web Development course 
-            as of Februrary 2019.
-            Prior to getting started in software development I worked at Tesla, where 
-            I managed relationships with utilities and devised 
-            interconnection strategies and guidelines for solar and energy 
-            storage projects.  I’m currently seeking a role in software 
-            development.  More about my experience and background can be found in
-            my resume, <a id="minilink" onClick={this.handleClick.bind(this, 'revealres')} href="#">here</a>.
-            You can check out my coding projects on <a id="minilink" onClick={this.handleClick.bind(this, 'revealres')} href="https://github.com/JTConnolly82">Github</a>.
+          <h3>Originally from Pittsburgh and currently living in Salt 
+            Lake City.  <img id="aboutimage" align="right" src="https://i.imgur.com/5TN30vH.png" alt="me" />
+             I graduated from of the University of Colorado, Boulder in 
+            2013 and  completed DevPoint Labs’ Full-Stack Web Development course 
+            in Februrary 2019.
+            In my last role I was at Tesla, where 
+            I managed relationships with utilities and developed
+            interconnection strategies for solar and energy 
+            storage projects.  In my free time I enjoy exploring
+            the mountains on my skis or mountain bike.  More about my experience and background can be found in
+            my <span id="minilink" onClick={this.handleClick.bind(this, 'revealres')}>resume</span>.
+            On Github I'm <a id="minilink"  target="_blank" href="https://github.com/JTConnolly82?tab=repositories">JTConnolly82</a>.
             </h3>
-            {this._renderRes()}
-
-            
+            <Social/>
+            {this._renderRes()} 
         </div>
       </div>
     )
@@ -65,8 +66,8 @@ class Resume extends Component {
   render() {
     return(
       <div id="resumediv">
-        <img id="resume" src="https://i.imgur.com/SCrQnoR.jpg" alt="my resume"/>
-        <h3 id="minilink" onClick={this.handleClick.bind(this, '')} href="#">Collapse</h3>
+        <img id="resume" src="https://i.imgur.com/xOLEGZx.jpg" alt="my resume"/>
+        
       </div>
     )
   }

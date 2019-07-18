@@ -16,9 +16,9 @@ class Nav extends Component {
           </div>
           <div id='navlistholder'>
             <ul className="NavList">
-              <li className='NavListItem'><a href="/about">About Me</a></li>
+              <li className='NavListItem'><a href="/about">About</a></li>
               {/* <li className='NavListItem'><a href="/portfolio">Portfolio</a></li> */}
-              {/* <li className='NavListItem'><a href="/contact">Contact</a></li> */}
+              <li className='NavListItem'><a href="/contact">Contact</a></li>
             </ul>
           </div>
         </div>

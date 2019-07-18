@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 .NavTainer {
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 #navlistholderpage {
@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
+  margin-top: 30px;
 }
 
 .NavListItempage a {
@@ -34,17 +35,13 @@
   list-style-type: none;
 }
 
-#mynamepage {
-  transition: transform ease-out .4s;  
+#mynamepage {  
   text-decoration: none;
   color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 4rem;
+  font-size: 6rem;
   font-family: 'Open Sans', sans-serif;
 }
 
-#mynamepage:hover {
-  transform: scale(1.1);
-}

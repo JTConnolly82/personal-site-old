@@ -3,7 +3,7 @@ import './MyForm.css';
 
 const MyForm = () => (
   <div id="page">
-    <form class="MyForm" action="/contact" id="contact-form" method="post" role="form">
+    <form class="MyForm" action="https://formspree.io/jtconnolly82@gmail.com" method="POST" id="contact-form" method="post" role="form">
       <fieldset>
         <label for="name">Name &#42;</label>
         <input id="name" name="name" type="text" placeholder="Your name" required="required" />
